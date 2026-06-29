@@ -64,23 +64,23 @@ This project simulates that control monitoring lifecycle end-to-end. **Splunk En
 ## 🏗️ Lab Architecture
 
 ```
-┌──────────────────────────────────────────────────────────────────┐
-│                    Bridged Network — 10.232.194.0/24             │
-│                                                                   │
+┌──────────────────────────────────────────────────────────────── ┐
+│                    Bridged Network — 10.232.194.0/24            │
+│                                                                 │
 │  ┌─────────────────────────────┐   ┌──────────────────────────┐ │
-│  │   Kali Linux VM              │   │   Windows 10 Host        │ │
-│  │   (SIEM Platform)            │◄──┤   (Target / Log Source)  │ │
-│  │   10.232.194.7                │   │   10.232.194.141          │ │
-│  │                               │   │                          │ │
-│  │   Splunk Enterprise 10.2.0    │   │   Splunk Universal       │ │
-│  │   Web UI: Port 8000           │   │   Forwarder 10.2.0       │ │
-│  │   Receiving: Port 9997        │   │                          │ │
+│  │   Kali Linux VM             │   │   Windows 10 Host        │ │
+│  │   (SIEM Platform)           │◄──┤   (Target / Log Source)  │ │
+│  │   10.232.194.7              │   │   10.232.194.141         │ │
+│  │                             │   │                          │ │
+│  │   Splunk Enterprise 10.2.0  │   │   Splunk Universal       │ │
+│  │   Web UI: Port 8000         │   │   Forwarder 10.2.0       │ │
+│  │   Receiving: Port 9997      │   │                          │ │
 │  └─────────────────────────────┘   └──────────────────────────┘ │
-│                                                                   │
+│                                                                 │
 │   Data Flow: Windows Security Event Log (EventID 4625)          │
 │              → Universal Forwarder → TCP 9997 → Splunk Index    │
-│              → SPL Detection Query → Real-time Alert             │
-└──────────────────────────────────────────────────────────────────┘
+│              → SPL Detection Query → Real-time Alert            │
+└─────────────────────────────────────────────────────────────────┘
 ```
 
 | Component | Details |
