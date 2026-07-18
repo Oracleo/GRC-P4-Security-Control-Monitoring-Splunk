@@ -1,4 +1,4 @@
-# 5. Compliance Gap Analysis (ISO 27001, NIST CSF, PCI DSS)
+# 7. Compliance Gap Analysis (ISO 27001, NIST CSF, PCI DSS)
 
 This document maps the identified security control implementation to specific regulatory frameworks.
 
