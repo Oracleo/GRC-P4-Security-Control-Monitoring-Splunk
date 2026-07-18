@@ -1,13 +1,13 @@
-# 2. Assessment Scope & Investigation Methodology
+# 3. Assessment Scope & Investigation Methodology
 
 *  **Document Type:** Terms of Reference (ToR)
 *  **Assessment Period:** February 6, 2026
 *  **Assessment Owner:** Niladri Biswas
 
-## 2.1 Purpose
+## 3.1 Purpose
 To implement and validate a continuous access control monitoring control using Splunk SIEM. The objective is to detect brute-force credential guessing attacks (MITRE ATT&CK T1110), operationalize a real-time alert, and map the entire workflow to ISO 27001 and NIST CSF compliance requirements.
 
-## 2.2 In-Scope & Out-of-Scope Assets
+## 3.2 In-Scope & Out-of-Scope Assets
 | **Scope Element** | **Details** |
 |:---|:---|
 | **SIEM Platform** | Splunk Enterprise 10.2.0 (Hosted on Kali Linux VM at `10.232.194.7`). |
@@ -16,7 +16,7 @@ To implement and validate a continuous access control monitoring control using S
 | **Attack Simulation** | Authenticated user attempting to run `runas` with incorrect passwords against local accounts. |
 | **Out-of-Scope** | Cloud identity providers (Azure AD), Linux SSH logs, and Syslog integration. |
 
-## 2.3 Technical Methodology (6 Phases)
+## 3.3 Technical Methodology (6 Phases)
 
 **Phase 1 — SIEM Platform Deployment & Network Config**
 Splunk Enterprise was deployed on Kali Linux within a VirtualBox Bridged network (`10.232.194.0/24`). Port 9997 was configured on the SIEM to receive log data from external forwarders.
@@ -39,6 +39,6 @@ The detection query was operationalized as a real-time Splunk alert. The alert i
 **Phase 6 — GRC Documentation**
 The entire setup and the resulting findings were documented, mapped to ISO 27001 Annex A controls, NIST CSF functions, and MITRE ATT&CK TTPs.
 
-## 2.4 Constraints & Limitations
+## 3.4 Constraints & Limitations
 *   **Detection Only:** This implementation is strictly a **detective control**. It detects the attack after it has already occurred. Without account lockout or MFA, it does not prevent the attacker from guessing the password.
 *   **Limited Scope:** The monitoring currently covers only Windows Local Authentication. It does not monitor SSH, VPN, or Cloud Authentication.
