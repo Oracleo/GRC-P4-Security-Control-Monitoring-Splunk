@@ -6,7 +6,7 @@ Mapping the brute-force event to MITRE ATT&CK allows us to understand the advers
 | Vulnerability / Threat | MITRE Tactic | MITRE Technique ID | Technique Name | Adversary Action Enabled |
 |:---|:---|:---|:---|:---|
 | **Multiple Failed Logins (EventID 4625)** | **TA0006 (Credential Access)** | **T1110.001** | Brute Force: Password Guessing | The adversary repeatedly attempts to guess valid credentials for the `testuser` and `Dr.Nee` accounts to gain unauthorized access to the workstation. |
-| **Absent MFA & Lockout** | **TA0001 (Initial Access)** | **T1110** | Brute Force | The lack of MFA and lockout reduces the adversary's required time to compromise a privileged account, eventually granting Initial Access. |
+| **Absent MFA & Lockout** | **TA0006 (Credential Access)** | **T1110** | Brute Force | The lack of MFA and lockout reduces the adversary's required time to compromise a privileged account, enabling Credential Access. |
 
 ## Attack Chain Scenario (The "Real World" Threat)
 1.  **Reconnaissance (TA0043):** Attacker identifies the `NATIONALIST` hostname and a valid Admin account (`Dr.Nee`) via OSINT or network scanning.
