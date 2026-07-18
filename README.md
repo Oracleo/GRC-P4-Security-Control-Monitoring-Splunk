@@ -1,4 +1,4 @@
-# Security Control Monitoring & Risk Documentation | Splunk SIEM
+# Security Control Monitoring & Risk Assessment | Splunk SIEM
 
 ![Splunk](https://img.shields.io/badge/Splunk-Enterprise%2010.2.0-65A637?style=for-the-badge&logo=splunk&logoColor=white)
 ![MITRE ATT&CK](https://img.shields.io/badge/MITRE-ATT%26CK%20T1110-red?style=for-the-badge&logo=mitre&logoColor=white)
