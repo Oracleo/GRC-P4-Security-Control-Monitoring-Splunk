@@ -1,4 +1,4 @@
-# 2. Executive Dashboard: Security Control Monitoring Status
+# 2. Executive Dashboard
 
 **Reporting Period:** February 6, 2026
 **Project:** GRC-P4 - Security Control Monitoring & Risk Documentation | Splunk SIEM
@@ -7,7 +7,7 @@
 
 ---
 
-## 📈 Executive Summary (Management KPIs)
+## Executive Summary
 
 This dashboard provides a high-level strategic view of our current Access Control Monitoring capabilities, following the validation of our Splunk SIEM deployment. 
 
@@ -21,7 +21,7 @@ This dashboard provides a high-level strategic view of our current Access Contro
 
 ---
 
-## 🔒 Control Posture Heatmap (ISO 27001 Mapping)
+## Control Posture Heatmap (ISO 27001 Mapping)
 
 | Control ID | Control Name | Current Status | Compliance Gap |
 |:---:|:---|:---:|:---|
@@ -32,7 +32,7 @@ This dashboard provides a high-level strategic view of our current Access Contro
 
 ---
 
-## 🎯 Top 3 Strategic Action Items
+## Top 3 Strategic Action Items
 
 1.  **Mitigate Brute-Force Immediate Risk (P1):** Enable Windows Account Lockout Policy (5 attempts within 15 mins). Cost: **~$200** (1 admin hour). 
     - *Rationale:* This shifts our posture from *reactive* detection to *proactive* prevention.
@@ -43,6 +43,6 @@ This dashboard provides a high-level strategic view of our current Access Contro
 
 ---
 
-## 📊 Risk Appetite & Board-Level Statement
+## Risk Appetite & Board-Level Statement
 
 > *"Our current configuration successfully detects authentication anomalies and provides a clear audit trail. However, our reliance on *detection only* leaves a critical window of vulnerability. We must immediately implement preventive controls (Lockout & MFA) to align our Access Control Monitoring with the organization's low-risk appetite and meet ISO 27001 compliance standards."*
