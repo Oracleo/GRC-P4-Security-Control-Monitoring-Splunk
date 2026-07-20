@@ -45,7 +45,7 @@ Navigate this repository to view the formal GRC artifacts:
 
 ## Screenshots Index
 
-| # | Filename | Description |
+| No. | Filename | Description |
 |---|---|---|
 | 01 | GRC4-01-splunk-start-terminal.png | Splunk Enterprise service startup |
 | 02 | GRC4-02-splunk-login-page.png | Splunk web interface login |
