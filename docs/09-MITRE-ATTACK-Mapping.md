@@ -1,4 +1,4 @@
-# 9. MITRE ATT&CK Threat Actor Mapping
+# 9. MITRE ATT&CK Mapping
 
 Mapping the brute-force event to MITRE ATT&CK allows us to understand the adversary's tactic and apply the specific mitigations required to disrupt the attack.
 
