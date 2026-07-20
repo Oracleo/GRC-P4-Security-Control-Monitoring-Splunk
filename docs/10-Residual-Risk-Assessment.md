@@ -1,8 +1,8 @@
-# 10. Residual Risk Assessment & Post-Remediation Analysis
+# 10. Residual Risk Assessment
 
 Once a GRC analyst identifies vulnerabilities and recommends controls, the ultimate goal is to reduce risk to an **acceptable residual level** (within the organization's risk appetite). This document assesses the remaining risk *after* the recommended controls from `06-Remediation-Tracker.md` have been implemented.
 
-## 10.1 Risk Mitigation Status (Post-Implementation)
+## 10.1 Risk Mitigation Status
 
 | Original Finding | Mitigating Control Applied | Residual Risk Status |
 |:---|:---|:---:|
@@ -11,7 +11,7 @@ Once a GRC analyst identifies vulnerabilities and recommends controls, the ultim
 | **Alert not routed to SOC** | Splunk alert integrated with Microsoft Teams/Email notifications to ensure the SOC is notified within 5 minutes of an alert firing. | 🟡 **Medium** |
 | **Limited Monitoring Scope** | Monitoring expanded from Windows Security logs to include Linux `auth.log` and Azure AD sign-in logs. | 🟡 **Medium** |
 
-## 10.2 Evaluation of Remaining (Residual) Risks
+## 10.2 Evaluation of Residual Risks
 
 Despite implementing the preventative controls above, the following residual risks remain and are accepted by management:
 
