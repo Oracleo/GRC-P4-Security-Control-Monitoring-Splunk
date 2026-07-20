@@ -43,4 +43,26 @@ Navigate this repository to view the formal GRC artifacts:
 | **`artifacts/`** | Raw technical documentation, including the complete SPL `detection_query.md` and the `setup_guide.md` for replicating the lab. |
 | **`screenshots/`** | 18 annotated screenshots documenting the installation, log ingestion, and alert configuration. |
 
+### Screenshots Index
+
+| # | Filename | Description |
+|---|---|---|
+| 01 | GRC4-01-splunk-start-terminal.png | Splunk Enterprise service startup |
+| 02 | GRC4-02-splunk-login-page.png | Splunk web interface login |
+| 03 | GRC4-03-splunk-home-dashboard.png | Splunk home dashboard |
+| 04 | GRC4-04-kali-network-ip.png | Kali IP — 10.232.194.7 |
+| 05 | GRC4-05-windows-ping-kali.png | Connectivity verified — 0% packet loss |
+| 06 | GRC4-06-data-inputs-page.png | Splunk data inputs configuration |
+| 07 | GRC4-07-receiving-port-9997.png | Receiving port 9997 enabled |
+| 08 | GRC4-08-windows-logs-in-splunk.png | 978 events ingested — pipeline verified |
+| 09 | GRC4-09-test-user-created.png | Test account created |
+| 10 | GRC4-10-failed-login-attempts.png | Failed authentication simulation |
+| 11 | GRC4-11-event-4625-search.png | EventID 4625 search results |
+| 12 | GRC4-12-event-details-expanded.png | Event detail — forensic fields |
+| 13 | GRC4-13-detection-query-results.png | Detection query — 2 accounts flagged |
+| 14 | GRC4-13-1-detection-visualization.png | Column chart — failure counts by account |
+| 15 | GRC4-14-create-alert-dialog.png | Alert creation — Real-time, Per-Result |
+| 16 | GRC4-15-alert-trigger-config.png | Alert action — dynamic field substitution |
+| 17 | GRC4-16-alert-saved-confirmation.png | Alert saved confirmation |
+| 18 | GRC4-17-alert-dashboard.png | Alert status — enabled and operational |
 ---
