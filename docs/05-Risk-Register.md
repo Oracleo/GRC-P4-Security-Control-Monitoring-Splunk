@@ -1,4 +1,4 @@
-# 5. Risk Register & Business Impact Analysis
+# 5. Risk Register
 
 This register serves as the master document for tracking the identified threat and the underlying control gaps in the Windows authentication infrastructure.
 
